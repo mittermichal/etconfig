@@ -1,0 +1,8 @@
+*
+!.gitignore
+!etmain/
+!etpro/
+!nq/
+!*/profiles/
+!*/profiles/ETUI/
+!*.cfg
