@@ -1,8 +1,8 @@
 *
-!.gitignore
-!etmain/
-!etpro/
-!nq/
-!*/profiles/
-!*/profiles/ETUI/
-!*.cfg
+!etmain/*.cfg
+# !.gitignore
+# !etmain/
+# !etpro/
+# !nq/
+# !*/profiles/kimi/
+# !*/profiles/ETUI/
