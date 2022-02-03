@@ -5,9 +5,10 @@
 *.db
 *.pk3.tmp
 */hunkusage.dat
-*/servercache.dat
+**/servercache.dat
 */dlcache/*
 */profiles/defaultprofile.dat
+
 
 */screenshots/*
 */stats/*
