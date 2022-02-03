@@ -1,0 +1,27 @@
+hudDef {
+	hud {
+    hudnumber 6
+    compass         407   352 132 132 0 1 
+    staminabar      4     388 12 72 0 1 
+    breathbar       4     388 12 72 0 1 
+    healthbar       24    388 12 72 0 1 
+    weaponchargebar 395   310 12 72 0 1 
+    healthtext      300   320 0 0 0 1 
+    xptext          300   330 0 0 0 1
+    weaponammo      355   320 0 0 0 1 
+    statsdisplay    450   328 0 0 1 1 
+    weaponicon      558   424 80 32 0 1 
+    fireteam        500    10 100 100 0 1 
+    popupmessages     4   100  0  0 0 1 
+    powerups        495   352 36 36 1 1
+    objectives        8   344 36 36 0 1 
+    hudhead         -420   0 2000 480 0 0 // yes
+    cursorhints     296   260 48 48 0 1 
+    weaponstability  50   208 10 64 0 1 
+    reinforcement   323   268 0 0 0 1 
+    spawntimer      323   278 0 0 0 1 
+    roundtimer      303.5 288 0 0 0 1 
+    localtime       600   270 0 0 0 1  
+    livesleft         0     0 0 0 0 1 
+	}
+}
