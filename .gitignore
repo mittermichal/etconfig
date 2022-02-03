@@ -8,7 +8,7 @@
 **/servercache.dat
 */dlcache/*
 */profiles/defaultprofile.dat
-
+*.txt
 
 */screenshots/*
 */stats/*
