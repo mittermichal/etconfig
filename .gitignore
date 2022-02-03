@@ -1,5 +1,18 @@
-*
-!etmain/*.cfg
+*.pk3
+*.log
+*.pem
+*.so
+*.db
+*.pk3.tmp
+*/hunkusage.dat
+*/servercache.dat
+*/dlcache/*
+*/profiles/defaultprofile.dat
+
+*/screenshots/*
+*/stats/*
+*/demos/*
+etkey
 # !.gitignore
 # !etmain/
 # !etpro/
