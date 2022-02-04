@@ -1,1 +1,1 @@
-# Wolfenstein-Enemy-Territory-config
+# Wolfenstein: Enemy-Territory configuration
