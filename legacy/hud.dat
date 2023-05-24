@@ -22,6 +22,7 @@ hudDef {
     spawntimer      323   278 0 0 0 1 
     roundtimer      303.5 288 0 0 0 1 
     localtime       600   270 0 0 0 1  
-    livesleft         0     0 0 0 0 1 
+    livesleft         0     0 0 0 0 1
+    //missilecamera     4   120 160 120 1 1
 	}
 }
