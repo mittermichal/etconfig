@@ -1014,50 +1014,10 @@
 		}, {
 			"name":	"",
 			"number":	5,
-			"parent":	4,
+			"parent":	2,
 			"components":	{
-				"fireteam":	{
-					"rect":	{
-						"x":	63.75,
-						"y":	-46,
-						"w":	350,
-						"h":	100
-					},
-					"showBackGround":	true,
-					"showBorder":	true,
-					"anchor":	6,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"reinforcement":	{
-					"rect":	{
-						"x":	31.5,
-						"y":	44,
-						"w":	57,
-						"h":	14
-					},
-					"textStyle":	3,
-					"anchor":	0,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"spawntimer":	{
-					"rect":	{
-						"x":	14.750030517578125,
-						"y":	44,
-						"w":	57,
-						"h":	14
-					},
-					"textStyle":	3,
-					"anchor":	0,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
+				"crosshair":	{
+					"style":	0
 				}
 			}
 		}, {
@@ -1066,215 +1026,62 @@
 			"parent":	4,
 			"components":	{
 				"crosshair":	{
-					"rect":	{
-						"x":	0,
-						"y":	0,
-						"w":	38,
-						"h":	38
-					},
-					"mainColor":	"00ffffff",
-					"anchor":	8,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"compass":	{
-					"rect":	{
-						"x":	-16.749984741210938,
-						"y":	26,
-						"w":	225,
-						"h":	225
-					},
-					"style":	63,
-					"mainColor":	"fffffffe",
-					"backgroundColor":	"28332b7d",
-					"autoAdjust":	1,
-					"anchor":	4,
-					"parent":	{
-						"anchor":	4,
-						"component":	null
-					}
-				},
-				"staminabar":	{
-					"rect":	{
-						"x":	-2.0000152587890625,
-						"y":	104,
-						"w":	72,
-						"h":	12
-					},
-					"style":	80,
-					"anchor":	0,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"healthbar":	{
-					"rect":	{
-						"x":	-3.5000152587890625,
-						"y":	104,
-						"w":	72,
-						"h":	12
-					},
-					"style":	81,
-					"anchor":	2,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"weaponchargebar":	{
-					"rect":	{
-						"x":	133.75003051757812,
-						"y":	4,
-						"w":	12,
-						"h":	72
-					},
-					"style":	2061,
-					"secondaryColor":	"ffffff32",
-					"backgroundColor":	"28332b7f",
-					"borderColor":	"7f7f7f7f",
-					"anchor":	0,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"healthtext":	{
-					"rect":	{
-						"x":	-3.5000152587890625,
-						"y":	-111,
-						"w":	72,
-						"h":	14
-					},
-					"mainColor":	"ffffff7f",
-					"anchor":	4,
-					"parent":	{
-						"anchor":	5,
-						"component":	null
-					}
-				},
-				"xptext":	{
-					"rect":	{
-						"x":	-120.79998779296875,
-						"y":	1,
-						"w":	58,
-						"h":	14
-					},
-					"anchor":	4,
-					"parent":	{
-						"anchor":	5,
-						"component":	null
-					}
-				},
-				"ranktext":	{
-					"rect":	{
-						"x":	-18.999984741210938,
-						"y":	-1,
-						"w":	58,
-						"h":	14
-					},
-					"visible":	false,
-					"anchor":	4,
-					"parent":	{
-						"anchor":	4,
-						"component":	null
-					}
-				},
-				"statsdisplay":	{
-					"rect":	{
-						"x":	-110.49998474121094,
-						"y":	-13,
-						"w":	14,
-						"h":	72
-					},
-					"textStyle":	0,
-					"anchor":	2,
-					"parent":	{
-						"anchor":	5,
-						"component":	null
-					}
-				},
-				"weaponicon":	{
-					"rect":	{
-						"x":	49.700019836425781,
-						"y":	-92,
-						"w":	60,
-						"h":	32
-					},
-					"anchor":	6,
-					"parent":	{
-						"anchor":	5,
-						"component":	null
-					}
+					"mainColor":	"00ffffff"
 				},
 				"fireteam":	{
 					"rect":	{
-						"x":	1.750030517578125,
-						"y":	26,
+						"x":	10.29998779296875,
+						"y":	-14,
 						"w":	320,
-						"h":	100
+						"h":	103
 					},
-					"scale":	74.999847412109375,
-					"mainColor":	"7f7f7fff",
-					"secondaryColor":	"28332b83",
-					"showBackGround":	true,
-					"borderColor":	"7f7f7f7f",
-					"textStyle":	0,
-					"textAlign":	0,
 					"anchor":	0,
 					"parent":	{
 						"anchor":	0,
-						"component":	null
-					}
-				},
-				"popupmessages":	{
-					"rect":	{
-						"x":	0,
-						"y":	20,
-						"w":	294,
-						"h":	140
-					},
-					"scale":	87.499847412109375,
-					"anchor":	7,
-					"parent":	{
-						"anchor":	7,
 						"component":	null
 					}
 				},
 				"powerups":	{
 					"rect":	{
-						"x":	-35.600006103515625,
-						"y":	8,
+						"x":	26.399986267089844,
+						"y":	-91,
 						"w":	36,
 						"h":	36
 					},
-					"anchor":	3,
+					"anchor":	6,
 					"parent":	{
-						"anchor":	3,
+						"anchor":	5,
 						"component":	null
 					}
 				},
-				"objectives":	{
+				"roundtimer":	{
+					"scale":	172.49984741210938,
+					"textStyle":	6
+				},
+				"reinforcement":	{
+					"scale":	197.49984741210938,
+					"textStyle":	3
+				},
+				"spawntimer":	{
 					"rect":	{
-						"x":	-4.9500274658203125,
-						"y":	-9,
-						"w":	36,
-						"h":	36
+						"x":	-5.50000762939453,
+						"y":	97,
+						"w":	57,
+						"h":	14
 					},
+					"textStyle":	2,
 					"anchor":	2,
 					"parent":	{
-						"anchor":	3,
+						"anchor":	8,
 						"component":	null
 					}
 				},
-				"hudhead":	{
+				"sprinttext":	{
 					"rect":	{
-						"x":	-113.00006103515625,
-						"y":	-16,
-						"w":	62,
-						"h":	80
+						"x":	-20.500007629394531,
+						"y":	-75,
+						"w":	57,
+						"h":	14
 					},
 					"anchor":	4,
 					"parent":	{
@@ -1282,375 +1089,12 @@
 						"component":	null
 					}
 				},
-				"cursorhints":	{
-					"rect":	{
-						"x":	0,
-						"y":	26,
-						"w":	48,
-						"h":	48
-					},
-					"anchor":	1,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"roundtimer":	{
-					"rect":	{
-						"x":	-9.375,
-						"y":	60,
-						"w":	57,
-						"h":	14
-					},
-					"textAlign":	2,
-					"anchor":	0,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"reinforcement":	{
-					"rect":	{
-						"x":	-9,
-						"y":	26,
-						"w":	57,
-						"h":	14
-					},
-					"textStyle":	3,
-					"textAlign":	2,
-					"anchor":	0,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"spawntimer":	{
-					"rect":	{
-						"x":	-9.25000762939453,
-						"y":	40,
-						"w":	57,
-						"h":	14
-					},
-					"textStyle":	3,
-					"textAlign":	2,
-					"anchor":	0,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"localtime":	{
-					"visible":	true,
-					"mainColor":	"b2b2b2ff",
+				"fps":	{
 					"textStyle":	3
 				},
-				"votetext":	{
-					"rect":	{
-						"x":	3.25,
-						"y":	-50,
-						"w":	278,
-						"h":	28
-					},
-					"scale":	67.499847412109375,
-					"mainColor":	"ffff00ff",
-					"anchor":	6,
-					"parent":	{
-						"anchor":	7,
-						"component":	null
-					}
-				},
-				"spectatortext":	{
-					"rect":	{
-						"x":	2.5000019073486328,
-						"y":	-78,
-						"w":	250,
-						"h":	38
-					},
-					"anchor":	6,
-					"parent":	{
-						"anchor":	7,
-						"component":	null
-					}
-				},
-				"limbotext":	{
-					"rect":	{
-						"x":	4.00000762939453,
-						"y":	-80,
-						"w":	278,
-						"h":	38
-					},
-					"anchor":	6,
-					"parent":	{
-						"anchor":	7,
-						"component":	null
-					}
-				},
-				"followtext":	{
-					"rect":	{
-						"x":	-8.500030517578125,
-						"y":	1,
-						"w":	278,
-						"h":	24
-					},
-					"anchor":	2,
-					"parent":	{
-						"anchor":	2,
-						"component":	null
-					}
-				},
-				"demotext":	{
-					"rect":	{
-						"x":	0,
-						"y":	0,
-						"w":	57,
-						"h":	14
-					},
-					"anchor":	0,
-					"parent":	{
-						"anchor":	0,
-						"component":	null
-					}
-				},
-				"missilecamera":	{
-					"rect":	{
-						"x":	97.000007629394531,
-						"y":	55,
-						"w":	160,
-						"h":	112
-					},
-					"anchor":	0,
-					"parent":	{
-						"anchor":	7,
-						"component":	null
-					}
-				},
-				"sprinttext":	{
-					"rect":	{
-						"x":	-2.0000152587890625,
-						"y":	-111,
-						"w":	72,
-						"h":	14
-					},
-					"mainColor":	"ffffff7f",
-					"textAlign":	3,
-					"anchor":	6,
-					"parent":	{
-						"anchor":	5,
-						"component":	null
-					}
-				},
-				"weaponchargetext":	{
-					"rect":	{
-						"x":	142.5,
-						"y":	79,
-						"w":	0,
-						"h":	14
-					},
-					"scale":	74.999847412109375,
-					"textAlign":	2,
-					"anchor":	0,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"fps":	{
-					"rect":	{
-						"x":	-3,
-						"y":	0,
-						"w":	57,
-						"h":	14
-					},
-					"visible":	true,
-					"showBackGround":	true,
-					"showBorder":	true,
-					"anchor":	2,
-					"parent":	{
-						"anchor":	2,
-						"component":	null
-					}
-				},
-				"ping":	{
-					"rect":	{
-						"x":	-3,
-						"y":	72,
-						"w":	57,
-						"h":	14
-					},
-					"showBackGround":	true,
-					"showBorder":	true,
-					"anchor":	2,
-					"parent":	{
-						"anchor":	2,
-						"component":	null
-					}
-				},
-				"speed":	{
-					"rect":	{
-						"x":	-3,
-						"y":	86,
-						"w":	57,
-						"h":	14
-					},
-					"showBackGround":	true,
-					"showBorder":	true,
-					"anchor":	2,
-					"parent":	{
-						"anchor":	2,
-						"component":	null
-					}
-				},
-				"lagometer":	{
-					"rect":	{
-						"x":	-3,
-						"y":	16,
-						"w":	57,
-						"h":	57
-					},
-					"visible":	true,
-					"showBackGround":	true,
-					"showBorder":	true,
-					"anchor":	2,
-					"parent":	{
-						"anchor":	2,
-						"component":	null
-					}
-				},
-				"disconnect":	{
-					"rect":	{
-						"x":	-3,
-						"y":	16,
-						"w":	57,
-						"h":	57
-					},
-					"anchor":	2,
-					"parent":	{
-						"anchor":	2,
-						"component":	null
-					}
-				},
-				"chat":	{
-					"rect":	{
-						"x":	27,
-						"y":	-2,
-						"w":	364,
-						"h":	72
-					},
-					"anchor":	5,
-					"parent":	{
-						"anchor":	5,
-						"component":	null
-					}
-				},
-				"spectatorstatus":	{
-					"rect":	{
-						"x":	0,
-						"y":	48,
-						"w":	140,
-						"h":	24
-					},
-					"anchor":	1,
-					"parent":	{
-						"anchor":	1,
-						"component":	null
-					}
-				},
-				"pmitemsbig":	{
-					"rect":	{
-						"x":	1.750030517578125,
-						"y":	82,
-						"w":	200,
-						"h":	57
-					},
-					"autoAdjust":	1,
-					"anchor":	0,
-					"parent":	{
-						"anchor":	7,
-						"component":	null
-					}
-				},
-				"warmuptitle":	{
-					"scale":	89.9998550415039
-				},
-				"warmuptext":	{
-					"rect":	{
-						"x":	0,
-						"y":	73.5,
-						"w":	300,
-						"h":	39
-					},
-					"anchor":	1,
-					"parent":	{
-						"anchor":	1,
-						"component":	null
-					}
-				},
-				"objectivetext":	{
-					"rect":	{
-						"x":	-0.2499847412109375,
-						"y":	7,
-						"w":	422,
-						"h":	24
-					},
-					"style":	0,
-					"showBackGround":	true,
-					"showBorder":	true,
-					"anchor":	0,
-					"parent":	{
-						"anchor":	0,
-						"component":	null
-					}
-				},
-				"centerprint":	{
-					"rect":	{
-						"x":	0,
-						"y":	78.5,
-						"w":	300,
-						"h":	23
-					},
-					"textAlign":	1,
-					"anchor":	1,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"crosshairtext":	{
-					"style":	0
-				},
 				"crosshairbar":	{
-					"rect":	{
-						"x":	0,
-						"y":	-31,
-						"w":	110,
-						"h":	10
-					},
-					"style":	1153,
-					"anchor":	5,
-					"parent":	{
-						"anchor":	8,
-						"component":	null
-					}
-				},
-				"stats":	{
-					"rect":	{
-						"x":	1.750030517578125,
-						"y":	-3,
-						"w":	57,
-						"h":	62
-					},
-					"anchor":	6,
-					"parent":	{
-						"anchor":	6,
-						"component":	null
-					}
+					"style":	17
 				}
-			}
-		}, {
-			"name":	"",
-			"number":	7,
-			"parent":	6,
-			"components":	{
 			}
 		}]
 }
