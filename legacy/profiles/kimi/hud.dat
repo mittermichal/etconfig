@@ -1,8 +1,7 @@
 {
-	"version":	2,
+	"version":	4,
 	"huds":	[{
-			"name":	"",
-			"number":	1,
+			"name":	"1",
 			"components":	{
 				"compass":	{
 					"rect":	{
@@ -153,9 +152,8 @@
 				}
 			}
 		}, {
-			"name":	"",
-			"number":	2,
-			"parent":	1,
+			"name":	"2",
+			"parent":	"1",
 			"components":	{
 				"compass":	{
 					"rect":	{
@@ -263,9 +261,8 @@
 				}
 			}
 		}, {
-			"name":	"",
-			"number":	3,
-			"parent":	2,
+			"name":	"3",
+			"parent":	"2",
 			"components":	{
 				"healthbar":	{
 					"rect":	{
@@ -479,9 +476,8 @@
 				}
 			}
 		}, {
-			"name":	"",
-			"number":	4,
-			"parent":	3,
+			"name":	"4",
+			"parent":	"3",
 			"components":	{
 				"crosshair":	{
 					"style":	0
@@ -535,7 +531,7 @@
 						"w":	12,
 						"h":	72
 					},
-					"style":	5,
+					"style":	12293,
 					"anchor":	6,
 					"parent":	{
 						"anchor":	5,
@@ -879,7 +875,6 @@
 						"w":	57,
 						"h":	14
 					},
-					"style":	1,
 					"textAlign":	2,
 					"anchor":	4,
 					"parent":	{
@@ -894,7 +889,6 @@
 						"w":	57,
 						"h":	14
 					},
-					"style":	1,
 					"anchor":	4,
 					"parent":	{
 						"anchor":	5,
@@ -908,7 +902,6 @@
 						"w":	38,
 						"h":	14
 					},
-					"style":	1,
 					"textAlign":	0,
 					"anchor":	6,
 					"parent":	{
@@ -1012,9 +1005,8 @@
 				}
 			}
 		}, {
-			"name":	"",
-			"number":	5,
-			"parent":	4,
+			"name":	"5",
+			"parent":	"4",
 			"components":	{
 				"fireteam":	{
 					"rect":	{
@@ -1061,9 +1053,8 @@
 				}
 			}
 		}, {
-			"name":	"",
-			"number":	6,
-			"parent":	4,
+			"name":	"6",
+			"parent":	"4",
 			"components":	{
 				"crosshair":	{
 					"rect":	{
@@ -1117,7 +1108,7 @@
 						"w":	72,
 						"h":	12
 					},
-					"style":	81,
+					"style":	12369,
 					"anchor":	2,
 					"parent":	{
 						"anchor":	8,
@@ -1647,10 +1638,119 @@
 				}
 			}
 		}, {
-			"name":	"",
-			"number":	7,
-			"parent":	6,
+			"name":	"7",
+			"parent":	"6",
 			"components":	{
+				"staminabar":	{
+					"backgroundColor":	"28332bc8"
+				},
+				"popupmessages":	{
+					"rect":	{
+						"x":	-6.75,
+						"y":	20,
+						"w":	294,
+						"h":	140
+					},
+					"style":	335,
+					"scale":	80,
+					"mainColor":	"010302ff",
+					"anchor":	7,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
+				},
+				"popupmessages2":	{
+					"rect":	{
+						"x":	-9.75,
+						"y":	40,
+						"w":	250,
+						"h":	86
+					},
+					"visible":	true,
+					"style":	80,
+					"scale":	70,
+					"anchor":	2,
+					"parent":	{
+						"anchor":	2,
+						"component":	null
+					}
+				},
+				"localtime":	{
+					"style":	1
+				},
+				"spectatortext":	{
+					"scale":	75
+				},
+				"ping":	{
+					"visible":	true
+				},
+				"stats":	{
+					"visible":	true
+				}
+			}
+		}, {
+			"name":	"Shoutcaster_copy",
+			"parent":	"Shoutcaster",
+			"components":	{
+				"crosshair":	{
+					"style":	0,
+					"mainColor":	"00ffffff"
+				},
+				"compass":	{
+					"style":	0
+				},
+				"localtime":	{
+					"visible":	true
+				},
+				"lagometer":	{
+					"visible":	true
+				},
+				"chat":	{
+					"rect":	{
+						"x":	-1.5,
+						"y":	-5.99298095703125,
+						"w":	364,
+						"h":	65.5999984741211
+					},
+					"anchor":	5,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"centerprint":	{
+					"rect":	{
+						"x":	0,
+						"y":	-96,
+						"w":	422,
+						"h":	24
+					},
+					"anchor":	5,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"stats":	{
+					"rect":	{
+						"x":	-3,
+						"y":	-57,
+						"w":	341,
+						"h":	36
+					},
+					"anchor":	5,
+					"parent":	{
+						"anchor":	5,
+						"component":	null
+					}
+				},
+				"scTeamNamesAxis":	{
+					"textStyle":	6
+				},
+				"scTeamNamesAllies":	{
+					"textStyle":	6
+				}
 			}
 		}]
 }
