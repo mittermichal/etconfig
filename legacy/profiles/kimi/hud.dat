@@ -1,21 +1,8 @@
 {
-	"version":	4,
+	"version":	7,
 	"huds":	[{
 			"name":	"1",
 			"components":	{
-				"compass":	{
-					"rect":	{
-						"x":	49,
-						"y":	-19,
-						"w":	84,
-						"h":	84
-					},
-					"anchor":	6,
-					"parent":	{
-						"anchor":	6,
-						"component":	null
-					}
-				},
 				"healthbar":	{
 					"rect":	{
 						"x":	-24,
@@ -149,15 +136,10 @@
 						"anchor":	7,
 						"component":	null
 					}
-				}
-			}
-		}, {
-			"name":	"2",
-			"parent":	"1",
-			"components":	{
+				},
 				"compass":	{
 					"rect":	{
-						"x":	70,
+						"x":	49,
 						"y":	-19,
 						"w":	84,
 						"h":	84
@@ -167,7 +149,12 @@
 						"anchor":	6,
 						"component":	null
 					}
-				},
+				}
+			}
+		}, {
+			"name":	"2",
+			"parent":	"1",
+			"components":	{
 				"healthbar":	{
 					"rect":	{
 						"x":	24,
@@ -256,6 +243,19 @@
 					"anchor":	4,
 					"parent":	{
 						"anchor":	4,
+						"component":	null
+					}
+				},
+				"compass":	{
+					"rect":	{
+						"x":	70,
+						"y":	-19,
+						"w":	84,
+						"h":	84
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	6,
 						"component":	null
 					}
 				}
@@ -479,23 +479,6 @@
 			"name":	"4",
 			"parent":	"3",
 			"components":	{
-				"crosshair":	{
-					"style":	0
-				},
-				"compass":	{
-					"rect":	{
-						"x":	0,
-						"y":	3,
-						"w":	90,
-						"h":	90
-					},
-					"style":	3,
-					"anchor":	5,
-					"parent":	{
-						"anchor":	5,
-						"component":	null
-					}
-				},
 				"staminabar":	{
 					"rect":	{
 						"x":	-27.70001220703125,
@@ -503,7 +486,7 @@
 						"w":	12,
 						"h":	72
 					},
-					"style":	5,
+					"barStyle":	5,
 					"anchor":	4,
 					"parent":	{
 						"anchor":	5,
@@ -517,7 +500,7 @@
 						"w":	12,
 						"h":	72
 					},
-					"style":	5,
+					"barStyle":	5,
 					"anchor":	4,
 					"parent":	{
 						"anchor":	5,
@@ -531,7 +514,7 @@
 						"w":	12,
 						"h":	72
 					},
-					"style":	12293,
+					"barStyle":	4101,
 					"anchor":	6,
 					"parent":	{
 						"anchor":	5,
@@ -545,7 +528,7 @@
 						"w":	12,
 						"h":	72
 					},
-					"style":	5,
+					"barStyle":	5,
 					"anchor":	6,
 					"parent":	{
 						"anchor":	5,
@@ -996,10 +979,25 @@
 						"w":	130,
 						"h":	10
 					},
-					"style":	16,
+					"style":	0,
+					"barStyle":	2,
 					"anchor":	5,
 					"parent":	{
 						"anchor":	8,
+						"component":	null
+					}
+				},
+				"compass":	{
+					"rect":	{
+						"x":	0,
+						"y":	3,
+						"w":	90,
+						"h":	90
+					},
+					"style":	3,
+					"anchor":	5,
+					"parent":	{
+						"anchor":	5,
 						"component":	null
 					}
 				}
@@ -1063,27 +1061,9 @@
 						"w":	38,
 						"h":	38
 					},
-					"mainColor":	"00ffffff",
 					"anchor":	8,
 					"parent":	{
 						"anchor":	8,
-						"component":	null
-					}
-				},
-				"compass":	{
-					"rect":	{
-						"x":	-16.749984741210938,
-						"y":	26,
-						"w":	225,
-						"h":	225
-					},
-					"style":	63,
-					"mainColor":	"fffffffe",
-					"backgroundColor":	"28332b7d",
-					"autoAdjust":	1,
-					"anchor":	4,
-					"parent":	{
-						"anchor":	4,
 						"component":	null
 					}
 				},
@@ -1094,7 +1074,7 @@
 						"w":	72,
 						"h":	12
 					},
-					"style":	80,
+					"barStyle":	80,
 					"anchor":	0,
 					"parent":	{
 						"anchor":	8,
@@ -1108,7 +1088,7 @@
 						"w":	72,
 						"h":	12
 					},
-					"style":	12369,
+					"barStyle":	4177,
 					"anchor":	2,
 					"parent":	{
 						"anchor":	8,
@@ -1122,10 +1102,11 @@
 						"w":	12,
 						"h":	72
 					},
-					"style":	2061,
 					"secondaryColor":	"ffffff32",
 					"backgroundColor":	"28332b7f",
+					"showBorder":	true,
 					"borderColor":	"7f7f7f7f",
+					"barStyle":	2061,
 					"anchor":	0,
 					"parent":	{
 						"anchor":	8,
@@ -1207,6 +1188,7 @@
 						"w":	320,
 						"h":	100
 					},
+					"style":	425,
 					"scale":	74.999847412109375,
 					"mainColor":	"7f7f7fff",
 					"secondaryColor":	"28332b83",
@@ -1224,10 +1206,10 @@
 					"rect":	{
 						"x":	0,
 						"y":	20,
-						"w":	294,
+						"w":	350,
 						"h":	140
 					},
-					"scale":	87.499847412109375,
+					"scale":	100,
 					"anchor":	7,
 					"parent":	{
 						"anchor":	7,
@@ -1286,6 +1268,20 @@
 						"component":	null
 					}
 				},
+				"weaponstability":	{
+					"rect":	{
+						"x":	2.9999313354492188,
+						"y":	8,
+						"w":	10,
+						"h":	64
+					},
+					"style":	1,
+					"anchor":	6,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
+				},
 				"roundtimer":	{
 					"rect":	{
 						"x":	-9.375,
@@ -1332,6 +1328,7 @@
 				},
 				"localtime":	{
 					"visible":	true,
+					"style":	1,
 					"mainColor":	"b2b2b2ff",
 					"textStyle":	3
 				},
@@ -1607,7 +1604,18 @@
 					}
 				},
 				"crosshairtext":	{
-					"style":	0
+					"rect":	{
+						"x":	0,
+						"y":	-41,
+						"w":	300,
+						"h":	16
+					},
+					"style":	0,
+					"anchor":	5,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
 				},
 				"crosshairbar":	{
 					"rect":	{
@@ -1616,7 +1624,8 @@
 						"w":	110,
 						"h":	10
 					},
-					"style":	1153,
+					"style":	1,
+					"barStyle":	144,
 					"anchor":	5,
 					"parent":	{
 						"anchor":	8,
@@ -1635,24 +1644,60 @@
 						"anchor":	6,
 						"component":	null
 					}
+				},
+				"compass":	{
+					"rect":	{
+						"x":	-16.749984741210938,
+						"y":	26,
+						"w":	225,
+						"h":	225
+					},
+					"style":	47,
+					"mainColor":	"fffffffe",
+					"backgroundColor":	"28332b7d",
+					"autoAdjust":	1,
+					"anchor":	4,
+					"parent":	{
+						"anchor":	4,
+						"component":	null
+					}
 				}
 			}
 		}, {
 			"name":	"7",
 			"parent":	"6",
 			"components":	{
+				"crosshair":	{
+					"style":	0,
+					"mainColor":	"00ffffff"
+				},
 				"staminabar":	{
 					"backgroundColor":	"28332bc8"
 				},
+				"fireteam":	{
+					"rect":	{
+						"x":	16.750030517578125,
+						"y":	30,
+						"w":	320,
+						"h":	100
+					},
+					"style":	417,
+					"autoAdjust":	1,
+					"anchor":	0,
+					"parent":	{
+						"anchor":	0,
+						"component":	null
+					}
+				},
 				"popupmessages":	{
 					"rect":	{
-						"x":	-6.75,
+						"x":	-5.25,
 						"y":	20,
-						"w":	294,
+						"w":	354,
 						"h":	140
 					},
-					"style":	335,
-					"scale":	80,
+					"style":	143,
+					"scale":	65,
 					"mainColor":	"010302ff",
 					"anchor":	7,
 					"parent":	{
@@ -1668,7 +1713,7 @@
 						"h":	86
 					},
 					"visible":	true,
-					"style":	80,
+					"style":	144,
 					"scale":	70,
 					"anchor":	2,
 					"parent":	{
@@ -1676,8 +1721,18 @@
 						"component":	null
 					}
 				},
-				"localtime":	{
-					"style":	1
+				"weaponstability":	{
+					"rect":	{
+						"x":	89.850013732910156,
+						"y":	-8,
+						"w":	10,
+						"h":	64
+					},
+					"anchor":	6,
+					"parent":	{
+						"anchor":	7,
+						"component":	null
+					}
 				},
 				"spectatortext":	{
 					"scale":	75
@@ -1685,8 +1740,38 @@
 				"ping":	{
 					"visible":	true
 				},
+				"warmuptitle":	{
+					"rect":	{
+						"x":	-13.749984741210938,
+						"y":	5,
+						"w":	422,
+						"h":	24
+					},
+					"scale":	300,
+					"anchor":	0,
+					"parent":	{
+						"anchor":	0,
+						"component":	null
+					}
+				},
+				"crosshairtext":	{
+					"rect":	{
+						"x":	0,
+						"y":	-42,
+						"w":	300,
+						"h":	16
+					},
+					"anchor":	5,
+					"parent":	{
+						"anchor":	8,
+						"component":	null
+					}
+				},
 				"stats":	{
 					"visible":	true
+				},
+				"compass":	{
+					"style":	35
 				}
 			}
 		}, {
@@ -1696,9 +1781,6 @@
 				"crosshair":	{
 					"style":	0,
 					"mainColor":	"00ffffff"
-				},
-				"compass":	{
-					"style":	0
 				},
 				"localtime":	{
 					"visible":	true
@@ -1750,6 +1832,9 @@
 				},
 				"scTeamNamesAllies":	{
 					"textStyle":	6
+				},
+				"compass":	{
+					"style":	0
 				}
 			}
 		}]
